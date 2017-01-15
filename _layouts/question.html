@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign yes = site[page.yes-response.collection] | where: "collection_id", page.yes-response.collection_id  | first %}
+{% assign no = site[page.no-response.collection] | where: "collection_id", page.no-response.collection_id  | first %}
+
+<section role="main" class="item main">
+	<h1>{{ page.text }}</h1>
+</section>
+<section role="contentinfo" class="item">
+	{% if page.yes-response.collection_id %}
+		<a href="{{ yes.url }}">Yes</a>
+	{% endif %}
+	{% if page.no-response.collection_id %}
+		<a href="{{ no.url }}">No</a>
+	{% endif %}
+	{{page.content}}
+</section>

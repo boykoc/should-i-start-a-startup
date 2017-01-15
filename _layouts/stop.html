@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% assign yes = site[page.yes-response.collection] | where: "collection_id", page$
+{% assign no = site[page.no-response.collection] | where: "collection_id", page.n$
+
+
+<header class="intro project-header">
+  <h1>{{ page.text }}</h1>
+  <p class="col-2"><a href="{{ yes.url }}">Yes</a></p>
+  <p class="col-2"><a href="{{ no.url }}">No</a></p>
+</header>
+<div class="project-body">
+  {{ page.content }}
+</div>
+
