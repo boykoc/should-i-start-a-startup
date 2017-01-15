@@ -9,5 +9,5 @@ layout: default
 	<h1>So, you have a great startup idea? Lets see if you should go after it.</h1>
 </section>
 <section role="contentinfo" class="item">
-	<a href="/questions/1">Get started</a>
+	<a href="{{site.baseurl}}/questions/1">Get started</a>
 </section>
