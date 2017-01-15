@@ -9,10 +9,10 @@ layout: default
 </section>
 <section role="contentinfo" class="item">
 	{% if page.yes-response.collection_id %}
-		<a href="/{{ yes.url }}">Yes</a>
+		<a href="{{site.baseurl}}{{ yes.url }}">Yes</a>
 	{% endif %}
 	{% if page.no-response.collection_id %}
-		<a href="/{{ no.url }}">No</a>
+		<a href="{{site.baseurl}}{{ no.url }}">No</a>
 	{% endif %}
 	{{page.content}}
 </section>

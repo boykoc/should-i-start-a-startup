@@ -16,7 +16,7 @@
 title: Should I Start a Startup?
 description: |
   Quiz to help determine if you should start a startup. Built with Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/should-i-start-a-startup" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github: https://github.com/boykoc/should-i-start-a-startup
 

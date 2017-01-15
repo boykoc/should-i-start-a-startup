@@ -4,17 +4,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>{{ site.title }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="/css/styles.css" />
+		<link rel="stylesheet" href="{{site.baseurl}}/css/styles.css" />
 	</head>
 	<body>
 		<div class="container">
 			<header role="banner" class="item">
-				<p><a href="/should-i-start-a-startup">{{site.title}}</a></p>
+				<p><a href="{{site.baseurl}}/">{{site.title}}</a></p>
 			</header>
 
 			{{ content }}
 			<footer class="item">
-        			<p><a href="{{site.github}}/issues">Report a bug</a> | <a href="{{site.github}}">Contribute</a> | <a href="/about">About</a></p>
+        			<p><a href="{{site.github}}/issues">Report a bug</a> | <a href="{{site.github}}">Contribute</a> | <a href="{{site.baseurl}}/about">About</a></p>
 			</footer>
 		</div>
 	</body>
