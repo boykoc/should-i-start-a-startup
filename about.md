@@ -6,9 +6,9 @@ permalink: /about/
 
 # About
 
-This is a very simple tool to help people decide if the are ready to start working on a new startup idea.
+This is a very simple tool to help people decide if they are ready to start working on a new startup idea.
 
-This is not an all-encompassing tool. This not an official anything. 
+This is not an all-encompassing tool. This is not an official anything. 
 
 This is a few of the basic things I think about when others say *'Hey, I want to make a [website, app, company, etc.] that [makes me rich, face swaps dogs with elephants, etc.]'*.
 
